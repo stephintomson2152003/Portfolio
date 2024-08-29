@@ -1,0 +1,159 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+#footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 18px;
+    background-color: gray;
+    color: white;
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  .menu-icon {
+    font-size: 30px;
+    transition: font-size 0.2s;
+  }
+  
+  .menu-icon:hover {
+    font-size: 35px;
+  
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    justify-content: flex-end;
+    /* Align items to the left */
+    width: 100%;
+    /* Full width to spread out nav items */
+  }
+  
+  /* Transition and other properties for navbar link */
+  .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    /* Adjust padding to your preference */
+    transition: padding 0.3s, font-size 0.3s;
+  }
+  
+  .nav-link:hover {
+    padding: 13px 18px;
+    /* Increase padding on hover */
+    font-size: 24px;
+    color: white;
+    /* Optional: Adjust this if you still want some font change */
+  }
+  
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .imgafe {
+    padding: 120px;
+  
+  }
+  
+  #profile_pic {
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #profile_pic:hover {
+    transform: scale(1.5);
+    /* Increase size on hover */
+  }
+  
+  
+  #hero-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(img/hero2.jpg);
+    height: 100vh;
+  }
+  
+  /* For the text to have shadow */
+  .hero-txt {
+    text-shadow: #ffcc00 1px 0 10px;
+  }
+  
+  #skills-section,
+  #contact-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  #mission-section,
+  #carouse-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+  }
+  
+  
+  #skills-section img {
+    max-width: 100%;
+    height: 200px;
+  
+  }
+  
+  #skills-section .row {
+    margin-bottom: 20px;
+  }
+  
+  
+  #mission-section img {
+    max-width: 100%;
+  
+  
+  }
+  
+  #mission-section h3 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  
+  .social-icon {
+    font-size: 60px;
+    color: black;
+  
+    transition: color 0.3s;
+  
+  }
+  
+  .social-icon:hover {
+  
+    color: #3498db;
+  }
+  
+  
+  #contact-section h3 {
+    margin-bottom: 20px;
+  }
+  
+  .carousel-item img {
+    max-height: 80vh;
+  }
+  
+  #mission-target,
+  #skills-target,
+  #contact-target,
+  #carouse-target {
+    position: relative;
+    top: -100px;
+  }
+  
+  p {
+    font-size: 20px;
+  }

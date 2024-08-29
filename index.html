@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Portfolio">
+  <!-- TODO: Replace this with your title -->
+  <title>Stephin Profile</title>
+  <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/
+		-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom styles (these can extend the default Bootstrap styles) -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!-- TODO: Paste Navbar code and customize links -->
+  <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary " data-bs-theme="dark" id="navbar-container">
+    <div class="container" id=" navbar-items">
+      <!--Icon for home button in from bootstrap icons.  -->
+      <a class="navbar-brand" href="#"><i class="bi bi-house-door-fill menu-icon"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <!-- New icon for hamburger menu -->
+        <i class="bi bi-grid-1x2-fill menu-icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#mission-target"> <span data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">Mission</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-target"><span data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carouse-target"><span data-bs-toggle="collapse" data-bs-target="#navbarNav">My
+                Interests</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-target"><span data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section id="hero-section" alt="background image of a office space">
+    <div class="row imgafe">
+      <!-- Styling for different devices and border -->
+      <img src="img/profile.jpg" id="profile_pic"
+        class="img-fluid  border border-5 rounded-circle col-xs-4 col-sm-6 col-md-12 col-lg-12 col-xl-12"
+        alt="Profile Picture">
+    </div>
+    <div class="row">
+      <h1 class="hero-txt">Stephin Tomson</h2>
+    </div>
+    <div class="row">
+      <h5 class="hero-txt">Good things takes time</h5>
+    </div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <div class="div" id="mission-target"></div>
+    <div class="container">
+      <!-- Centered heading -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">My Mission</h3>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Image -->
+        <div class="col-md-6 col-sm-12">
+          <img src="img/mission.jpg" alt="Descriptive Alt Text">
+        </div>
+        <!-- Text -->
+        <div class="col-md-6 col-sm-12">
+          <p>I aim to gain valuable experience by working with teams on large projects, enhancing both my technical
+            skills and interpersonal abilities. My goal is to contribute to the development of applications that provide
+            essential services and amenities to people everywhere. Through continuous learning and collaboration, I
+            aspire to make meaningful contributions that positively impact communities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills section -->
+  <section id="skills-section">
+    <div class="div" id="skills-target"></div>
+    <div class="container">
+      <div class="row text-center">
+        <h3>Skills</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <img class="skills" src="img/css.png" alt="HTML and CSS">
+          <p>Experienced in HTML and CSS for structuring and styling web pages efficiently.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <img class="skills" src="img/python.png" alt="Python">
+          <p>Skilled in Python for data analysis, automation, and backend development.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <img class="skills" src="img/html.png" alt="JavaScript">
+          <p>Proficient in JavaScript, enhancing interactive web experiences and client-side logic.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <img class="skills" src="img/java.png" alt="Java">
+          <p>Well-versed in Java, focusing on object-oriented programming and software engineering.</p>
+        </div>
+      </div>
+      <div class="row  justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <img class="skills" src="img/bootstrap.png" alt="Java">
+          <p>Well-versed in Java, focusing on object-oriented programming and software engineering.</p>
+        </div>
+      </div>
+  </section>
+  <!-- Carouse Section -->
+  <section id="carouse-section">
+    <div class="div" id="carouse-target"></div>
+    <div class="container">
+      <h3>My Interests</h3>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Music"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Exploration"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Soccer"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/music.jpg" class="d-block w-100" alt="Fingers of a guitarist">
+            <div class="carousel-caption">
+              <h2>Music</h2>
+              <p>Listening to music helps me relax, while playing it brings happiness and peace.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/exploration.jpg" class="d-block w-100" alt="Light Sweeping in  through a forest">
+            <div class="carousel-caption">
+              <h2>Exploration</h2>
+              <p>I am passionate about nature's beauty and love creating memorable experiences through exploration.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/soccer.jpg" class="d-block w-100" alt="Soccer ball on a field">
+            <div class="carousel-caption ">
+              <h2>Soccer</h2>
+              <p>Soccer fuels my adrenaline and keeps me active. It holds a special place in my heart, filled with
+                cherished memories.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div class="div" id="contact-target"></div>
+    <div class="container">
+      <!-- Centered heading -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">Follow </h3>
+        </div>
+      </div>
+      <!-- Social Icons -->
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-12">
+          <a href="#" class="social-icon">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="#" class="social-icon">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="#" class="social-icon">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section" data-bs-theme="dark">
+    <p><i class="bi bi-c-circle"></i> Stephin Tomson 2024</p>
+  </section>
+
+  <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+  	-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</body>
+
+</html>
