@@ -86,15 +86,14 @@
     text-shadow: #ffcc00 1px 0 10px;
   }
   
-  #skills-section,
-  #contact-section {
+  #skills-section,#projects-section {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #f2f2f2;
   }
   
   #mission-section,
-  #carouse-section {
+  #carouse-section , #contact-section {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: darkgrey;
@@ -102,6 +101,11 @@
   
   
   #skills-section img {
+    max-width: 100%;
+    height: 200px;
+  
+  }
+  #projects-section img {
     max-width: 100%;
     height: 200px;
   
