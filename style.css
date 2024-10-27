@@ -1,163 +1,210 @@
-/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+/* Navbar styles */
+#navbar-container {
+  background-color: #0f1a20 !important;
+}
+
+#navbar-container .nav-link,
+#navbar-container .navbar-brand {
+  color: white !important;
+}
+
+#navbar-container .navbar-brand i {
+  color: white;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.navbar-toggler-icon,
+.navbar-toggler .menu-icon {
+  color: white;
+}
+
+/* Scroll behavior */
+body.scroll-top {
+  scroll-behavior: smooth;
+}
+
+/* Footer styles */
 #footer-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    font-size: 18px;
-    background-color: gray;
-    color: white;
-  }
-  
-  body {
-    position: relative;
-  }
-  
-  .menu-icon {
-    font-size: 30px;
-    transition: font-size 0.2s;
-  }
-  
-  .menu-icon:hover {
-    font-size: 35px;
-  
-  }
-  
-  .navbar-nav {
-    display: flex;
-    align-items: center;
-    /* Align items vertically */
-    justify-content: flex-end;
-    /* Align items to the left */
-    width: 100%;
-    /* Full width to spread out nav items */
-  }
-  
-  /* Transition and other properties for navbar link */
-  .nav-link {
-    font-size: 18px;
-    padding: 10px 15px;
-    /* Adjust padding to your preference */
-    transition: padding 0.3s, font-size 0.3s;
-  }
-  
-  .nav-link:hover {
-    padding: 13px 18px;
-    /* Increase padding on hover */
-    font-size: 24px;
-    color: white;
-    /* Optional: Adjust this if you still want some font change */
-  }
-  
-  .navbar {
-    min-height: 80px;
-  }
-  
-  .imgafe {
-    padding: 120px;
-  
-  }
-  
-  #profile_pic {
-    margin: auto;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  #profile_pic:hover {
-    transform: scale(1.5);
-    /* Increase size on hover */
-  }
-  
-  
-  #hero-section {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-image: url(img/hero2.jpg);
-    height: 100vh;
-  }
-  
-  /* For the text to have shadow */
-  .hero-txt {
-    text-shadow: #ffcc00 1px 0 10px;
-  }
-  
-  #skills-section,#projects-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #f2f2f2;
-  }
-  
-  #mission-section,
-  #carouse-section , #contact-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: darkgrey;
-  }
-  
-  
-  #skills-section img {
-    max-width: 100%;
-    height: 200px;
-  
-  }
-  #projects-section img {
-    max-width: 100%;
-    height: 200px;
-  
-  }
-  
-  #skills-section .row {
-    margin-bottom: 20px;
-  }
-  
-  
-  #mission-section img {
-    max-width: 100%;
-  
-  
-  }
-  
-  #mission-section h3 {
-    text-align: center;
-    width: 100%;
-    margin: 20px 0 20px 0;
-  }
-  
-  .social-icon {
-    font-size: 60px;
-    color: black;
-  
-    transition: color 0.3s;
-  
-  }
-  
-  .social-icon:hover {
-  
-    color: #3498db;
-  }
-  
-  
-  #contact-section h3 {
-    margin-bottom: 20px;
-  }
-  
-  .carousel-item img {
-    max-height: 80vh;
-  }
-  
-  #mission-target,
-  #skills-target,
-  #contact-target,
-  #carouse-target {
-    position: relative;
-    top: -100px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: 18px;
+  background-color: gray;
+  color: white;
+}
+
+/* Body styles */
+body {
+  position: relative;
+}
+
+/* Menu icon styles */
+.menu-icon {
+  font-size: 30px;
+  transition: font-size 0.2s;
+}
+
+.menu-icon:hover {
+  font-size: 35px;
+}
+
+/* Navbar nav styles */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: padding 0.3s, font-size 0.3s;
+}
+
+.nav-link:hover {
+  padding: 13px 18px;
+  font-size: 24px;
+  color: white;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+/* Hero section styles */
+.imgafe {
+  padding: 120px;
+}
+
+#profile_pic {
+  margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#profile_pic:hover {
+  transform: scale(1.4);
+}
+#hero-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(img/hero3.jpg);
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  height: 100vh; /* Maintain full viewport height */
+  overflow: hidden; /* Prevent horizontal overflow */
+}
+
+.hero-txt {
+  text-shadow: black 1px 0 20px;
+}
+
+/* Section styles */
+#skills-section,
+#projects-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+#mission-section,
+#carouse-section,
+#contact-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #0f1a20;
+  color: white;
+}
+
+#skills-section img,
+#projects-section img {
+  max-width: 100%;
+  height: 200px;
+}
+
+#skills-section .row {
+  margin-bottom: 20px;
+}
+
+#mission-section img {
+  max-width: 100%;
+}
+
+#mission-section h3 {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+}
+/* Social icon styles */
+.social-icon {
+  font-size: 60px;
+  padding: 10px 15px;
+  transition: padding 0.3s ,color 0.3s, transform 0.3s;
+  padding: 10px; /* Add padding to the social icons */
+}
+
+.social-icon:hover {
+  font-size: 70px; /* Increase size on hover */
+  color: white; /* Change color on hover */
+}
+
+
+#contact-section h3 {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  max-height: 80vh;
+}
+
+#mission-target,
+#skills-target,
+#contact-target,
+#carouse-target {
+  position: relative;
+  top: -100px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 20px;
+}
+/* Contact section styles */
+.col-12.d-flex.justify-content-center.gap-4 a {
+  color: white !important; /* Ensure color is black for links */
+  padding: 10px 15px;
+  transition: transform 0.3s, font-size 0.3s;
+  padding: 10px; /* Add padding to the links */
+}
+
+.col-12.d-flex.justify-content-center.gap-4 a:hover {
+  font-size: 70px; /* Increase size on hover */
+  transform: scale(1.5);
+}
+
+/* Button styles */
+.btn-dark {
+  background-color: #0f1a20;
+  border-color: #0f1a20;
+  transition: transform 0.3s, font-size 0.3s;
+  padding: 10px 20px; /* Add padding to the button */
+}
+
+.btn-dark:hover {
+  background-color: #0d1720;
+  border-color: #0d1720;
+  transform: scale(1.1); /* Slightly increase the size */
+}
+
+#footer-section {
+  background-color: #0f1a20;
+}

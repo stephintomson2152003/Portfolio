@@ -2,22 +2,22 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <meta name="milestone" content="Portfolio">
   <!-- TODO: Replace this with your title -->
   <title>Stephin Profile</title>
   <!-- 
-			TODO: Add Bootstrap CSS link tag from: 
+      TODO: Add Bootstrap CSS link tag from: 
       https://getbootstrap.com/
-		-->
+    -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- 
-			TODO: Add Bootstrap Icons link tag from: 
-			https://icons.getbootstrap.com/
-			(Remember, the CDN link is towards the bottom of the page!)
-		-->
+      TODO: Add Bootstrap Icons link tag from: 
+      https://icons.getbootstrap.com/
+      (Remember, the CDN link is towards the bottom of the page!)
+    -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Custom styles (these can extend the default Bootstrap styles) -->
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -25,7 +25,7 @@
 
 <body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
   <!-- TODO: Paste Navbar code and customize links -->
-  <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary " data-bs-theme="dark" id="navbar-container">
+  <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary "  id="navbar-container">
     <div class="container" id=" navbar-items">
       <!--Icon for home button in from bootstrap icons.  -->
       <a class="navbar-brand" href="#"><i class="bi bi-house-door-fill menu-icon"></i></a>
@@ -68,14 +68,14 @@
     <div class="row imgafe">
       <!-- Styling for different devices and border -->
       <img src="img/profile.jpg" id="profile_pic"
-        class="img-fluid  border border-5 rounded-circle col-xs-4 col-sm-6 col-md-12 col-lg-12 col-xl-12"
+        class="img-fluid  border border-5 rounded-circle col-xs-4 col-sm-5 col-md-6 col-lg-8 col-xl-10"
         alt="Profile Picture">
     </div>
     <div class="row">
-      <h1 class="hero-txt">Stephin Tomson</h2>
+      <h1 class="hero-txt">Stephin Tomson</h1>
     </div>
     <div class="row">
-      <h5 class="hero-txt">Good things takes time</h5>
+      <h4 class="hero-txt"><i>You can have results or excuses. Not both - </i><b>Arnold Schwarzenegger</b></h4>
     </div>
   </section>
 
@@ -86,7 +86,7 @@
       <!-- Centered heading -->
       <div class="row">
         <div class="col-12">
-          <h3 class="text-center">My Mission</h3>
+          <h3 class="text-center border-bottom pb-4">My Mission</h3>
         </div>
       </div>
       <div class="row">
@@ -110,7 +110,7 @@
     <div class="div" id="skills-target"></div>
     <div class="container">
       <div class="row text-center">
-        <h3>Skills</h3>
+        <h3 class=" border-bottom pb-4">Skills</h3>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
@@ -140,8 +140,8 @@
   <!-- Carouse Section -->
   <section id="carouse-section">
     <div class="div" id="carouse-target"></div>
-    <div class="container">
-      <h3>My Interests</h3>
+    <div class="container  text-center">
+      <h3 class="border-bottom pb-4">My Interests</h3>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -193,7 +193,7 @@
   <div class="div" id="projects-target"></div>
   <div class="container">
     <div class="row text-center">
-      <h3>My Projects</h3>
+      <h3 class=" border-bottom pb-4">My Projects</h3>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-3 col-md-6 col-sm-12 text-center">
@@ -204,7 +204,7 @@
       <div class="col-lg-3 col-md-6 col-sm-12 text-center">
         <img class="projects" src="img/marriott.jpg" alt="MarriottUIX-Mockup">
         <h2>MarriottUIX-Mockup</h2>
-        <p>Skilled in Python for data analysis, automation, and backend development.</p>
+        <p>A mock up of Marriott Bonvoy page with advacned map features added as recommened improvement to webpage design</p>
       </div>
     
      
@@ -212,7 +212,12 @@
       <div class="col-lg-3 col-md-6 col-sm-12 text-center">
         <img class="projects" src="img/match-game.png" alt="Match-Games">
         <h2>Match-Games</h2>
-        <p>Well-versed in Java, focusing on object-oriented programming and software engineering.</p>
+        <p> The classic match cards reinvented with smoother animation and user friendly design</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="projects" src="img/speed-test.png" alt="Speed Test">
+        <h2>Speed Test</h2>
+        <p>A user intractive webpage designed to check the accuracy and typing speed of User.</p>
       </div>
     </div>
 </section>
@@ -220,48 +225,49 @@
   <section id="contact-section">
     <div class="div" id="contact-target"></div>
     <div class="container">
-      <!-- Centered heading -->
-      <div class="row">
-        <div class="col-12">
-          <h3 class="text-center">Follow </h3>
-        </div>
-      </div>
-      <!-- Social Icons -->
-      <div class="row text-center">
-        <div class="col-md-4 col-sm-12">
-          <a href="#" class="social-icon">
-            <i class="bi bi-linkedin"></i>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <a href="#" class="social-icon">
-            <i class="bi bi-github"></i>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <a href="#" class="social-icon">
-            <i class="bi bi-instagram"></i>
-          </a>
+      <div class="row">   
+        <div class="col-md-12">
+          <div class="row text-center">
+            <h3 class = "border-bottom pb-4">My Projects</h3>
+          </div>
+          <form action="#" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark border">Contact Us</button>
+          </form>
+          <div class="col-12 d-flex justify-content-center gap-4">
+            <a href="https://github.com/stephintomson2152003" class="me-3" ><i class="bi bi-github fs-1"></i></a>
+            <a href="https://www.instagram.com/stephin_tomson" class="me-3" ><i class="bi bi-instagram fs-1"></i></a>
+            <a href="https://x.com/StephinTomson" class="me-3"><i class="bi bi-twitter-x fs-1"></i></a>
+            <a href="mailto:stephintomson@gmail.com" class="me-3" ><i class="bi bi-envelope fs-1"></i></a></a>
+          </div>
         </div>
       </div>
     </div>
-
-
   </section>
 
   <!-- Footer section -->
-  <section id="footer-section" data-bs-theme="dark">
+  <section id="footer-section" >
     <p><i class="bi bi-c-circle"></i> Stephin Tomson 2024</p>
   </section>
 
   <!-- 
-  		TODO: Paste Bootstrap JavaScript script tag from:
+      TODO: Paste Bootstrap JavaScript script tag from:
       https://getbootstrap.com/
-  	-->
+    -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
 
 </body>
 
